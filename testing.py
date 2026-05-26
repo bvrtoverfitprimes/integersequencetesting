@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from typing import Dict, List, Tuple
 
-LIMIT = 10**7
+LIMIT = 10**8
 
 def build_spf(n: int) -> List[int]:
     """
