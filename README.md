@@ -43,6 +43,8 @@ This will:
 
 ## Results
 
+Testing so far has been performed up to $$10^8$$.
+
 The test results are automatically saved to `test_results.json` containing:
 - Total number of solutions found
 - All solution values with their properties
