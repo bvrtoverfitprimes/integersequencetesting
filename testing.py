@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from typing import Dict, List, Tuple
 
-LIMIT = 10**6
+LIMIT = 10**7
 
 def build_spf(n: int) -> List[int]:
     """
@@ -120,7 +120,7 @@ def main() -> None:
     print(f"  All solutions are 65 (mod 72):              {all_residue_65}")
     print()
     if all_from_quadruplet and all_residue_65:
-        print("CONSISTENT with Theorem 3, Theorem 6, and Conjecture 8 of the paper.")
+        print("CONSISTENT.")
 
     results = {
         "test_results": {
