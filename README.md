@@ -6,7 +6,7 @@ Testing a conjecture about composite numbers with special properties related to 
 
 The conjecture states:
 
-$\bigl\{\text{composite } n \;\big|\; \varphi(n+12) = \varphi(n) + 12 \;\wedge\; \sigma(n+12) = \sigma(n) + 12\bigr\} \;\Longrightarrow\; n \equiv 64 \pmod{72}$
+$$\\{ \text{composite } n \mid \varphi(n+12) = \varphi(n) + 12 \land \sigma(n+12) = \sigma(n) + 12 \\} \implies n \equiv 64 \pmod{72}$$
 
 In other words, for any composite number $n$ that satisfies **both** of the following conditions:
 - The Euler totient function: $\varphi(n+12) = \varphi(n) + 12$
