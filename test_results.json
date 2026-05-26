@@ -1,0 +1,54 @@
+{
+  "test_results": {
+    "limit": 1000000,
+    "total_solutions": 5,
+    "distinct_residues_mod_72": [65],
+    "solutions": [
+      {
+        "p": 5,
+        "n": 65,
+        "p_plus_2": 7,
+        "p_plus_6": 11,
+        "n_plus_12": 77,
+        "n_mod_72": 65
+      },
+      {
+        "p": 11,
+        "n": 209,
+        "p_plus_2": 13,
+        "p_plus_6": 17,
+        "n_plus_12": 221,
+        "n_mod_72": 65
+      },
+      {
+        "p": 101,
+        "n": 11009,
+        "p_plus_2": 103,
+        "p_plus_6": 107,
+        "n_plus_12": 11021,
+        "n_mod_72": 65
+      },
+      {
+        "p": 191,
+        "n": 38009,
+        "p_plus_2": 193,
+        "p_plus_6": 197,
+        "n_plus_12": 38021,
+        "n_mod_72": 65
+      },
+      {
+        "p": 821,
+        "n": 680609,
+        "p_plus_2": 823,
+        "p_plus_6": 827,
+        "n_plus_12": 680621,
+        "n_mod_72": 65
+      }
+    ],
+    "verification": {
+      "all_from_quadruplet": true,
+      "all_residue_65": true,
+      "consistent_with_theorems": true
+    }
+  }
+}
