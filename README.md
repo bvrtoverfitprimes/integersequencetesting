@@ -48,13 +48,6 @@ The test results are automatically saved to `test_results.json` containing:
 - All solution values with their properties
 - Verification summary
 
-## Configuration
-
-Adjust the `LIMIT` constant in `testing.py` to search larger ranges:
-```python
-LIMIT = 10**6  # Current setting
-```
-
 Note: Larger limits require more computation time and memory.
 
 ## Mathematical References
