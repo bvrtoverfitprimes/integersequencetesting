@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-static const int LIMIT = 100000000;
+static const int LIMIT = 1000000000;
 
 int main() {
     int N = LIMIT + 13;
@@ -44,7 +44,7 @@ int main() {
         int pct = (int)((long long)k * 100 / N);
         if (pct / 5 > last_pct_sieve / 5) {
             last_pct_sieve = pct;
-            printf("Progress: %d%%\n", pct);
+            printf("Sieve: %d%%\n", pct);
             fflush(stdout);
         }
     }
@@ -55,7 +55,7 @@ int main() {
         int pct = (int)((long long)n * 100 / LIMIT);
         if (pct / 5 > last_pct_search / 5) {
             last_pct_search = pct;
-            printf("Progress: %d%%\n", pct);
+            printf("Search: %d%%\n", pct);
             fflush(stdout);
         }
         if (spf[n] == n) continue;
