@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-static const int LIMIT = 1000000000;
+static const long long LIMIT = 10'000'000'000;
 
 int main() {
     int N = LIMIT + 13;
