@@ -93,7 +93,9 @@ All 166 solutions satisfy $n \equiv 65 \pmod{72}$ and all arise from prime quadr
 
 ## OEIS
 
-The solutions found correspond to values in **OEIS A056775** (numbers of the form $p(p+8)$ where $p$ and $p+8$ are both prime). The additional constraint here — that $(p, p+2, p+6, p+8)$ forms a prime quadruplet — connects this sequence to **OEIS A007530** (prime quadruplet values of $p$).
+This project directly computes **OEIS A056777**: composite numbers $k$ such that both $\varphi(k+12) = \varphi(k) + 12$ and $\sigma(k+12) = \sigma(k) + 12$. The OEIS lists 23 known terms (up to ~$10^9$); our search confirms all 23 and extends the sequence to **166 terms up to $10^{12}$**, all consistent with the conjecture stated by Jud McCranie (2000) that every term arises from a prime quadruplet, and with Ralf Stephan's observation (2003) that all terms are congruent to $65 \pmod{72}$.
+
+The connection to prime quadruplets links this sequence to **OEIS A007530** (values of $p$ where $(p, p+2, p+6, p+8)$ are all prime).
 
 ## Mathematical References
 
