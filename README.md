@@ -6,13 +6,13 @@ Testing a conjecture about composite numbers with special properties related to 
 
 The conjecture states:
 
-$$\\{ \text{composite } n \mid \varphi(n+12) = \varphi(n) + 12 \land \sigma(n+12) = \sigma(n) + 12 \\} \implies n \equiv 64 \pmod{72}$$
+$$\\{ \text{composite } n \mid \varphi(n+12) = \varphi(n) + 12 \land \sigma(n+12) = \sigma(n) + 12 \\} \implies n \equiv 65 \pmod{72}$$
 
 In other words, for any composite number $n$ that satisfies **both** of the following conditions:
 - The Euler totient function: $\varphi(n+12) = \varphi(n) + 12$
 - The divisor sum function: $\sigma(n+12) = \sigma(n) + 12$
 
-Then $n$ must be congruent to 64 modulo 72.
+Then $n$ must be congruent to 65 modulo 72.
 
 ## Implementation
 
