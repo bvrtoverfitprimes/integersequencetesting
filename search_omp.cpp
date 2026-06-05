@@ -161,7 +161,7 @@ int main() {
             for (int i = 0; i < e; i++) pf.push_back(p);
 
         if (pf.size() != 2 || pf[1] - pf[0] != 8) {
-            printf("  ANOMALY: n = %lld unexpected factorization\n", n);
+            printf("  Anomaly. n = %lld unexpected factorization\n", n);
             all_quad = false;
             continue;
         }
@@ -172,13 +172,13 @@ int main() {
                     (p + 6 <= sl && isp[p + 6]) &&
                     (p + 8 <= sl && isp[p + 8]);
         if (!quad) {
-            printf("  ANOMALY: n=%lld=%lld*%lld not prime quadruplet\n", n, p, p + 8);
+            printf("  Anomaly. n=%lld=%lld*%lld not prime quadruplet\n", n, p, p + 8);
             all_quad = false;
             continue;
         }
 
         if (n + 12 != (p + 2) * (p + 6)) {
-            printf("  IDENTITY FAILED: %lld+12 != (%lld+2)*(%lld+6)\n", n, p, p);
+            printf("  Identity failed. %lld+12 != (%lld+2)*(%lld+6)\n", n, p, p);
             continue;
         }
 
@@ -190,7 +190,7 @@ int main() {
 
     printf("\n  All solutions arise from prime quadruplets: %s\n", all_quad ? "True" : "False");
     printf("  All solutions are 65 (mod 72):              %s\n", all_65 ? "True" : "False");
-    if (all_quad && all_65) printf("\nCONSISTENT.\n");
+    if (all_quad && all_65) printf("\nConsistent.\n");
 
     FILE* jf = fopen("test_results.json", "w");
     fprintf(jf, "{\n  \"test_results\": {\n");
