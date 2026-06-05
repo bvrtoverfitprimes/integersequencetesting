@@ -91,6 +91,10 @@ All programs write results to `test_results.json`.
 
 All 166 solutions satisfy $n \equiv 65 \pmod{72}$ and all arise from prime quadruplets. The conjecture holds across the full tested range up to $10^{12}$.
 
+## OEIS
+
+The solutions found correspond to values in **OEIS A056775** (numbers of the form $p(p+8)$ where $p$ and $p+8$ are both prime). The additional constraint here — that $(p, p+2, p+6, p+8)$ forms a prime quadruplet — connects this sequence to **OEIS A007530** (prime quadruplet values of $p$).
+
 ## Mathematical References
 
 - **Euler's totient function** $\varphi(n)$: counts integers up to $n$ coprime to $n$
