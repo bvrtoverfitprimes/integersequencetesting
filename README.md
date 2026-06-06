@@ -22,7 +22,7 @@ $$\sigma(n+12) - \sigma(n) = (p+3)(p+7) - (p+1)(p+9) = 12$$
 | File | Description |
 |---|---|
 | `search_flat.py` | Original Python implementation using a linear sieve, up to ~$10^8$ |
-| `search_flat.cpp` | C++ port of the flat sieve, up to ~$10^9$ |
+| `search_flat.cpp` | C++ port of the flat sieve, up to $10^9$ |
 | `search_segmented.cpp` | C++ segmented sieve, runs up to $10^{10}$ with ~12 MB memory |
 | `search_segmented_fast.cpp` | Optimized segmented sieve with `e=1` fast path and `__builtin_ctzll` for $p=2$, used for $10^{11}$ |
 | `search_omp.cpp` | OpenMP parallel version used on AWS for $10^{12}$ |
